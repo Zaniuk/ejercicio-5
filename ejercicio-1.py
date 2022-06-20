@@ -5,12 +5,12 @@ import math
 def area_tria(h, b):
     return (b*h)/2
 
-h = input("Ingrese la altura del triángulo:\n")
-b = input("Ingrese la base del triángulo:\n")
+h = int(input("Ingrese la altura del triángulo:\n"))
+b = int(input("Ingrese la base del triángulo:\n"))
 print("El area del triángulo es: ",area_tria(h,b))
 
 def area_circ(r):
     return math.pi * (r*r)
 
-r = input("Ingrese el radio del círculo:\n")
+r = int(input("Ingrese el radio del círculo:\n"))
 print("El area del círculo es: ",area_circ(r))
